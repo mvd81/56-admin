@@ -1,3 +1,5 @@
+MVD81, forked this project and add some libraries i always use.
+
 # Install Laravel 5.6 - Bootstrap 4 - Jquery 3.3 - Fontawesome 4.7 - Startadmin
 
 The purpose of this very simple repository is to create, quickly, a running laravel framework with Bootstrap 4, Jquery 3.3 and fontawesome.
@@ -42,7 +44,7 @@ Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quick
 
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
 
-### About Fontawesome. [website](http://fontawesome.io)
+### About Fontawesome. [website](https://fontawesome.com/v4.7.0/icons/)
 
 Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
 
