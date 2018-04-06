@@ -159,7 +159,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // Form / HTML
+        Collective\Html\HtmlServiceProvider::class,
+        // Mvd, add Intervention provider to scale images.
+        Intervention\Image\ImageServiceProvider::class,
+        
     ],
 
     /*
@@ -208,7 +212,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        // HTML 5
+        'Form' => 'Collective\Html\FormFacade',
+        'Html' => 'Collective\Html\HtmlFacade',
+        // Intervention, for image scale.
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];
