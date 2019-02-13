@@ -12,6 +12,11 @@ php artisan key:generate
 echo "Change permissions on bootstrap/cache directory to allow laravel to write in it"
 chmod -R 777 bootstrap/cache/
 
+echo "Make cache data dir"
+mkdir -p storage/framework/cache/data
+cp storage/framework/cache/.gitignore storage/framework/cache/data/.gitignore
+printf "*\n! data/\n!.gitignore" > storage/framework/cache/data/.gitignore
+
 echo "Change permissions on storage directory to allow laravel to write in it"
 chmod -R 777 storage/
 
