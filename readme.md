@@ -62,4 +62,4 @@ This repository is open-sourced under the [MIT license](https://opensource.org/l
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Changelog
-* Update Laravel core from 5.6 to 5.7
+* 13-02-2019 | Update Laravel core from 5.6 to 5.7
