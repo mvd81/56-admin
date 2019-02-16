@@ -1,6 +1,6 @@
 MVD81, forked this project and add some libraries i always use.
 
-# Install Laravel 5.6 - Bootstrap 4 - Jquery 3.3 - Fontawesome 4.7 - Startadmin
+# Install Laravel ~~5.6~~ 5.7 - Bootstrap 4 - Jquery 3.3 - Fontawesome 4.7 - Startadmin
 
 The purpose of this very simple repository is to create, quickly, a running laravel framework with Bootstrap 4, Jquery 3.3 and fontawesome.
 
@@ -60,3 +60,6 @@ SB Admin is an open source, admin dashboard template for Bootstrap created by St
 This repository is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+### Changelog
+* Update Laravel core from 5.6 to 5.7
